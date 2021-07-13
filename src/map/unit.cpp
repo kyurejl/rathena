@@ -80,6 +80,9 @@ int unit_walktoxy_sub(struct block_list *bl)
 {
 	nullpo_retr(1, bl);
 
+	if(status_isdead(bl))
+		return 0;
+
 	unit_data *ud = unit_bl2ud(bl);
 
 	if (ud == nullptr)

@@ -132,3 +132,8 @@ Thumbs.db
 
 # CMakeFiles
 /CMakeFiles/
+
+/Release/
+/npc/custom/custom_made/
+.fake
+.ionide
